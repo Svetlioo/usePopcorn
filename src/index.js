@@ -10,11 +10,7 @@ function Test() {
 
   return (
     <div>
-      <StarRating
-        color="blue"
-        maxRating={10}
-        onSetRatingHandler={setMovieRating}
-      />
+      <StarRating maxRating={10} onSetRatingHandler={setMovieRating} />
       <p>
         <strong style={{ fontSize: "22px" }}>
           This movie was rated {movieRating} stars
@@ -28,12 +24,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <StarRating
+    {/* <StarRating
       maxRating={5}
-      messages={["Terible", "Bad", "Okay", "Good", "Amazing"]}
+      messages={["Terrible", "Bad", "Okay", "Good", "Amazing"]}
     />
     <StarRating maxRating={10} color="red" />
-    <StarRating maxRating={5} defaultRating={3} />
+    <StarRating maxRating={5} defaultRating={5} /> */}
     <Test />
     {/* <ExpandMenu /> */}
   </React.StrictMode>
