@@ -31,6 +31,5 @@ root.render(
     <StarRating maxRating={10} color="red" />
     <StarRating maxRating={5} defaultRating={5} /> */}
     <Test />
-    {/* <ExpandMenu /> */}
   </React.StrictMode>
 );
