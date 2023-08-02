@@ -50,15 +50,9 @@ const tempWatchedData = [
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
-const key = "42c81e67";
-
 export default function App() {
   const [movies, setMovies] = useState(tempMovieData);
   const [watched, setWatched] = useState(tempWatchedData);
-
-  fetch(`http://www.omdbapi.com/?apikey=${key}&s=interstellar`)
-    .then((res) => res.json())
-    .then((data) => console.log(data));
 
   return (
     <>
