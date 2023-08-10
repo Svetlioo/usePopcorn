@@ -63,12 +63,6 @@ export default function App() {
 
   const [watched, setWatched] = useLocalStorageState([], "watched");
 
-  // const [watched, setWatched] = useState([]);
-  // const [watched, setWatched] = useState(function () {
-  //   const storedValue = JSON.parse(localStorage.getItem("watched")) || [];
-  //   return storedValue;
-  // });
-
   function handleSelectMovie(movieId) {
     setSelectedId((selectedId) => (movieId === selectedId ? null : movieId));
   }
