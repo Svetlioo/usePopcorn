@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# usePopcorn Movie Search Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to usePopcorn, a movie search website that allows you to easily find information about movies, track the movies you've watched and rate them, as well as calculate the average movie duration. This website is built using React.js, the Fetch API, useEffect hook, useState hook, error checking, and local storage integration.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Search for movies using the TMBd API.
+- View detailed information about each movie, including title, release date, actors, length, IMDb rating, overview and more.
+- Mark movies as watched by giving them a rating that you can then compare with the IMDb rating.
+- Track the number of movies you've watched as well as their average rating.
+- Calculate the average movie duration across your watched movies.
+- Error handling for API requests and user interactions.
+- Store your watched movies and their details in local storage.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React.js: JavaScript library for building user interfaces.
+- Fetch API: Used to fetch movie data from The Movie Database API.
+- useEffect Hook: Manages side effects like fetching data and updating the component state.
+- useState Hook: Manages the component's state, including movie data and watched movies.
+- Local Storage: Stores watched movies and their details locally in the browser.
+- CSS: Styles the user interface for an appealing and user-friendly experience.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1. **Search Movies**: Enter a movie title in the search bar to find movies. Click on a movie card to view its details.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Mark as Watched**: By rating the movie, it will be automatically added to your watched list.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Average Movie Duration**: The average movie duration is calculated based on the watched movies you've marked.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Local Storage**: Your watched movies and their details are stored locally. They will be available even after you close the website.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you'd like to contribute to this project, feel free to open issues and submit pull requests.
